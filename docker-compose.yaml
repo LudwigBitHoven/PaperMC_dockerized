@@ -1,0 +1,17 @@
+services:
+  minecraft:
+    image: marctv/minecraft-papermc-server:1.21.4-232
+    container_name: "mcserver"
+    environment:
+      JAVAFLAGS: "-Xms512m -Xmx12G"
+      TZ: "Europe/Moscow"
+      PAPERMC_FLAGS: ""
+      PUID: "1000"
+      PGID: "1000"
+      SKIP_PERM_CHECK: true
+    volumes:
+      - ./minecraft_data:/data  # прокид файлов в локальную папку
+    ports: # порт справа должен быть 25565, все конфиг файлы настроены под нео
+      - "27000:25565"
+    stdin_open: true
+    tty: true

@@ -1,0 +1,7 @@
+minecraft_data/logs/*
+minecraft_data/world/*
+minecraft_data/world_nether/*
+minecraft_data/world_the_end/*
+minecraft_data/libraries/*
+minecraft_data/cache/*
+minecraft_data/plugins/spark/tmp-client/*
