@@ -7,4 +7,4 @@ minecraft_data/versions
 !minecraft_data/server.properties.yml
 !minecraft_data/server-icon.png
 !minecraft_data/bukkit.yml
-!minecraft_data/config/*
+!minecraft_data/config
