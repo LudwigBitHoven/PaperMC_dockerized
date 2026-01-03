@@ -5,3 +5,5 @@ minecraft_data/world_the_end/*
 minecraft_data/libraries/*
 minecraft_data/cache/*
 minecraft_data/plugins/spark/tmp-client/*
+minecraft_data/usercache.json
+minecraft_data/.console_history
